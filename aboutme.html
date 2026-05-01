@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric L. Ameres, Ph.D. - Professional Profile</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #2980b9;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            color: var(--primary-color);
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            color: var(--secondary-color);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 10px 0;
+        }
+
+        .contact {
+            font-size: 0.95rem;
+            color: #666;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 5px solid var(--secondary-color);
+            padding-left: 15px;
+            margin-top: 40px;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        .experience-item {
+            margin-bottom: 30px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            flex-wrap: wrap;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 1.15rem;
+            color: var(--primary-color);
+        }
+
+        .date {
+            color: var(--secondary-color);
+            font-weight: 600;
+        }
+
+        .company {
+            font-style: italic;
+            display: block;
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .patent-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 15px;
+        }
+
+        .patent-item {
+            background: #f9f9f9;
+            padding: 10px 15px;
+            border-radius: 4px;
+            border-left: 3px solid #ddd;
+            font-size: 0.9rem;
+        }
+
+        .patent-number {
+            font-weight: bold;
+            color: var(--secondary-color);
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #999;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 20px; }
+            .item-header { flex-direction: column; }
+            .date { margin-top: 5px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Eric L. Ameres, Ph.D.</h1>
+        <div class="tagline">Engineer | Educator | Maker</div>
+        <div class="contact">
+            eameres.com
+        </div>
+    </header>
+
+    <section>
+        <h2>The Mission</h2>
+        <p>I specialize in the design of high-level software architectures and precision physical systems. My career spans nearly four decades of technical leadership, including foundational work in global video standards (VP9) and current research in cognitive load and immersive visualization at RPI. Through <strong>EraserMice Industries</strong>, I combine this digital expertise with computer aided fabrication.</p>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+        
+        <div class="experience-item">
+            <div class="item-header">
+                <span class="title">Sr. Lecturer – Games Simulation Arts & Sciences</span>
+                <span class="date">2019 – Present</span>
+            </div>
+            <span class="company">Rensselaer Polytechnic Institute (RPI)</span>
+            <ul>
+                <li>Instructor for Game Engine Architecture, 3D Computer Graphics Programming, and Intro to Game Programming.</li>
+                <li>Performing research in immersive user interfaces and data visualization at the Institute for Data Exploration and Analytics.</li>
+                <li>Core Technologies: C#, C++, JavaScript, Python, OpenGL, Vulkan, Unity, Unreal, and Godot.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="item-header">
+                <span class="title">Founder & Lead Designer</span>
+                <span class="date">2020 – Present</span>
+            </div>
+            <span class="company">EraserMice Industries</span>
+            <ul>
+                <li>Operating a professional-grade CNC fabrication shop specializing in domestic, high-precision manufacturing.</li>
+                <li>Developing original game systems and mechanical puzzles, including <strong>Mazominos</strong> and the <strong>Basilisk Game Engine</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="item-header">
+                <span class="title">Sr. Research Engineer</span>
+                <span class="date">2007 – 2019</span>
+            </div>
+            <span class="company">EMPAC at RPI</span>
+            <ul>
+                <li>Co-invented "The Campfire," a patented system for high-resolution immersive visualization and data exploration.</li>
+                <li>Managed multi-disciplinary technical teams for international research and performance projects.</li>
+                <li>Responsible for the specification and implementation of 3D stereo projection, digital audio, and interactive rigging.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="item-header">
+                <span class="title">Chief Technology Officer / Lead Architect</span>
+                <span class="date">1994 – 2007</span>
+            </div>
+            <span class="company">On2 (Acquired by Google)</span>
+            <ul>
+                <li>Led the team responsible for the "TrueMotion" and "VP" family of video codecs, foundational to the current VP9, AV1, and Google WebM standards.</li>
+                <li>Directed the development of multiple generations of compression technology, resulting in 16 issued patents.</li>
+                <li>Established and managed the "upstate" engineering branch, overseeing distributed engineering and IT teams.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="item-header">
+                <span class="title">Software Engineer</span>
+                <span class="date">1986 – 1991</span>
+            </div>
+            <span class="company">Intelligent Computer Music Systems / Digitronics-Sixnet</span>
+            <ul>
+                <li>Created <strong>"RealTime,"</strong> one of the first commercial MIDI sequencers and algorithmic music composition tools.</li>
+                <li>Developed real-time process control and embedded monitoring software.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>U.S. Patents Issued</h2>
+        <div class="patent-list">
+            <div class="patent-item"><span class="patent-number">11,240,498</span> Independently Coding Frame Areas</div>
+            <div class="patent-item"><span class="patent-number">10,996,552</span> Pseudo-volumetric display apparatus and methods</div>
+            <div class="patent-item"><span class="patent-number">10,616,576</span> Error recovery using alternate reference frame</div>
+            <div class="patent-item"><span class="patent-number">8,942,290</span> Dynamic coefficient reordering</div>
+            <div class="patent-item"><span class="patent-number">8,824,553</span> Video compression method</div>
+            <div class="patent-item"><span class="patent-number">8,780,992</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">8,705,625</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">8,665,951</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">8,634,464</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">8,290,055</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">8,290,054</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">8,170,112</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">7,953,152</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">7,606,310</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">7,499,492</span> Video compression and encoding method</div>
+            <div class="patent-item"><span class="patent-number">7,409,099</span> Image/video compression via data re-ordering</div>
+            <div class="patent-item"><span class="patent-number">7,027,654</span> Video compression system</div>
+            <div class="patent-item"><span class="patent-number">6,108,383</span> Compression and decompression of video images</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <div class="experience-item">
+            <strong>Ph.D. Cognitive Science</strong> &bull; RPI
+            <br><em>Thesis: Reducing the Cognitive Load of Visual Analytics of Networks</em>
+        </div>
+        <div class="experience-item">
+            <strong>M.S. & B.S. Computer and Systems Engineering</strong> &bull; RPI
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2026 Eric L. Ameres. All Rights Reserved.
+    </footer>
+</div>
+
+</body>
+</html>
